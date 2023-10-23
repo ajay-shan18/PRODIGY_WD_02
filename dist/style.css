@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Droid+Sans+Mono");
+body {
+  background: #2E3440;
+  color: #E5E9F0;
+  font-family: "Droid Sans Mono", monospace;
+  text-align: center;
+}
+
+.timer {
+  font-family: Droid Sans Mono, monospace;
+  font-size: 28px;
+}
+.timer__start, .timer__stop, .timer__lap {
+  border-radius: 50%;
+  font-weight: 600;
+  height: 5em;
+  width: 5em;
+  text-transform: uppercase;
+  background: #2E3440;
+  border: none;
+  box-shadow: 0 0 0 1px #ECEFF4, 0 0 0 3px #2E3440;
+  color: white;
+}
+.timer__start:hover, .timer__start:focus, .timer__stop:hover, .timer__stop:focus, .timer__lap:hover, .timer__lap:focus {
+  background: transparent;
+}
+.timer__start {
+  background: #88C0D0;
+  box-shadow: 0 0 0 1px #ECEFF4, 0 0 0 3px #88C0D0;
+}
+.timer__start:hover, .timer__start:focus {
+  color: #88C0D0;
+  box-shadow: 0 0 0 1px #88C0D0, 0 0 0 3px #2E3440;
+}
+.timer__stop {
+  background: #EBCB8B;
+  box-shadow: 0 0 0 1px #ECEFF4, 0 0 0 3px #EBCB8B;
+}
+.timer__stop:hover, .timer__stop:focus {
+  color: #EBCB8B;
+  box-shadow: 0 0 0 1px #EBCB8B, 0 0 0 3px #2E3440;
+}
+.timer__lap {
+  background: #B48EAD;
+  box-shadow: 0 0 0 1px #ECEFF4, 0 0 0 3px #B48EAD;
+}
+.timer__lap:hover, .timer__lap:focus {
+  color: #B48EAD;
+  box-shadow: 0 0 0 1px #B48EAD, 0 0 0 3px #2E3440;
+}
+.timer__reset, .timer__laps-clear {
+  background: #D08770;
+  background: transparent;
+  border: none;
+  border: 1px solid white;
+  color: white;
+  text-transform: uppercase;
+  padding: 0.4em 1em;
+}
+.timer__reset:hover, .timer__reset:focus, .timer__laps-clear:hover, .timer__laps-clear:focus {
+  color: #D08770;
+  border-color: #D08770;
+  color: #2E3440;
+  border-color: #2E3440;
+  background: #D08770;
+}
+.timer__laps-list {
+  list-style: none;
+  margin: 1em auto;
+  padding: 0;
+}
