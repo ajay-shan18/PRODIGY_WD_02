@@ -1,5 +1,5 @@
-# PRODIGY_WD_02
-# WEB DEVELOPMENT INTERN AT PRODIGY TASK 2
+bharat intern
+# WEB DEVELOPMENT 
 # CREATION A STOPWATCH WITH LAP START AND PAUSE BUTTON
 ![WhatsApp Image 2023-10-23 at 12 07 32 PM](https://github.com/ajay-shan18/PRODIGY_WD_02/assets/148553946/8d46feca-603f-40a1-8ff4-920564db12d3)
 # interface ![WhatsApp Image 2023-10-23 at 9 34 02 PM](https://github.com/ajay-shan18/PRODIGY_WD_02/assets/148553946/7527e1e3-bd8f-4b81-ac45-a2376106b482)
